@@ -1,6 +1,12 @@
 
-header .btn-contact{
-	margin-top: 50px;
+.section {
+	background: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.avatar {
+	width: 150px;
 }
 
 .jumbotron {
@@ -8,9 +14,19 @@ header .btn-contact{
 	border-top: 10px solid #A50505;
 	border-radius: 0px;
 	padding: 2rem;
+	text-align: center;
 }
 
-.btn-contact {
+.btn-contact, .btn-contact:hover, .btn-contact:active {
 	background-color: #A50505;
 	color: #FFF;
+}
+
+@media (min-width: 992px) { 
+	.jumbotron .col-md-2, .jumbotron .col-md-6 , .jumbotron .col-md-4 {
+		text-align: left;
+	}
+	header .btn-contact {
+		margin-top: 50px;
+	}
 }
