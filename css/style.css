@@ -6,6 +6,15 @@
 	color: #D00707;
 }
 
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.text-center {
+	text-align: center;
+}
+
 .section {
 	background: #f5f5f5;
 	padding: 10px;
@@ -16,9 +25,9 @@
 	width: 150px;
 }
 
-.jumbotron {
+.header {
 	background-color: #f5f5f5;
-	border-top: 10px solid #A50505;
+	border-top: 5px solid #A50505;
 	border-radius: 0px;
 	padding: 2rem;
 	text-align: center;
@@ -30,10 +39,11 @@
 }
 
 @media screen and (min-width: 992px) {
-	.jumbotron{
+	.header{
 		text-align: left;
 	}
-	header .btn-contact {
-		margin-top: 50px;
-	}
+}
+
+.stack-img {
+	width: 200px;
 }
